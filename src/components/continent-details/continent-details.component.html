@@ -1,0 +1,10 @@
+<div *ngIf="continent">
+  <h2>{{continent.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{continent.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="continent.name" placeholder="name"/>
+    </label>
+  </div>
+  <button (click)="goBack()">go back</button>
+</div>

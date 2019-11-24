@@ -1,0 +1,19 @@
+
+
+<h1>carousel here</h1>
+
+<h2>{{city}}</h2>
+
+<div *ngIf="city == 'Amman'">
+  <div class="carousel">
+    <button (click)="backward()">backward</button>
+    <img [src]="currentImage" alt="">
+    <button (click)="forward()">forward</button>
+  </div>
+</div>
+
+<!-- <div class="carousel">
+  <button (click)="backward()">backward</button>
+  <img [src]="currentImage" alt="">
+  <button (click)="forward()">forward</button>
+</div> -->

@@ -1,0 +1,30 @@
+<div class="banner">
+    <div class="centerLrg">
+        <h1>Continents</h1>
+    </div>
+</div>
+
+<div class="destinationWrapper">
+    <div class="cards">
+        <div *ngFor='let continent of continents; let i = index' [attr.data-index]='i'>
+            <div class="card">
+                <div class="background{{i}}">
+                    <div class="center">
+                        <h2>{{continent.name}}</h2>
+                    </div>
+                </div>
+                <div class="countries" *ngFor='let c of continent.countries'>
+                    <a routerLink="/{{c.name}}">{{c.name}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                        <!-- <ul>
+                            <li *ngFor="country of continent.countries">
+                                <a href="#">country</a>
+                            </li>
+                        </ul> -->
+                        <!-- <a routerLink="/{{continent.name}}/{{continent.id}}">
+                            {{continent.name}}
+                        </a> -->

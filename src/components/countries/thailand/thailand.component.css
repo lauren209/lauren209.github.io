@@ -1,0 +1,27 @@
+
+.banner {
+    background-image: url("https://live.staticflickr.com/65535/49082481676_c690b1f1b5_b.jpg");
+    background-size: 100% 400px;  
+}
+
+.thailandWrapper{
+    margin: 30px 300px;
+}
+
+.goldGP{
+    height: 200px;
+    width: 160px;
+}
+
+.bucket, .bangcrock{
+    height: 200px;
+    width: 400px;
+}
+
+.pr{
+    float: right;
+}
+
+.pl{
+    float: left;
+}

@@ -1,0 +1,7 @@
+<ul class="heroes">
+  <li *ngFor="let continent of continents">
+    <a routerLink="/detail/{{continent.id}}">
+      <span class="badge">{{continent.id}}</span> {{continent.name}}
+    </a>
+  </li>
+</ul>

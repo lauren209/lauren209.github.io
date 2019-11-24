@@ -1,0 +1,100 @@
+/* AppComponent's private CSS styles */
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 0;
+  margin-right: 10px;
+  margin-left: 30px;
+  
+  a {
+    text-decoration: none;
+    color: #fcfcfc;
+  }
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.center {
+  display: table; 
+  height: 100px; 
+  width: 100%;
+  text-align: left; 
+}
+
+.navBar {
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #0D1F2D;
+  // background-color: #476c9b;
+  //height: 100px;
+}
+
+.wrapper {
+  display: flex;
+}
+nav {
+  flex: 1;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #fae1df;
+}
+nav a:hover {
+  color: #fae1df;
+  // background-color: #7c9eb2;
+  // height: 100%;
+}
+nav a.active {
+  color: #fbfbf2;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
